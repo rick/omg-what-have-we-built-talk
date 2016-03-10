@@ -1,19 +1,247 @@
 
-# Long Refactorings
+
+# OMG, what did we build?
+## Recovering from the hangover of application success
+
+---
+
+![](images/wthhyb.png)
+
+---
+# OMG
 
 <br/>
 <br/>
 
 ## Rick Bradley
-### GitHub, Inc.
+### Principal Engineer, Puppet Labs
+
+### github.com/rick
+
+---
+
+## Lives
+
+#### (past and otherwise)
+
+---
+
+### Spent a couple of years trying to rewrite a large clinical system.
+
+<br/>
+
+#### This looked a lot like "green field" work.
+#### It totally wasn't.
+
+<br/>
+
+#### "Rewrites" are a messy thing, and quite possibly impossible at any non-trivial scale.
+
+---
+
+### The project was a failure.
+
+---
+
+![](images/tire-fire.jpg)
+
+---
+
+### I mean, I learned a lot.
+<br/>
+
+### But, just, fire and craters.
+
+---
+
+### Fortunately, business is often like diplomacy:
+<br/>
+
+### There are no "failures", just "frank exchanges of views" and "going back to the table".
+
+---
+
+### Spent 5 years in a 3-person consultancy.
+
+<br/>
+
+#### We thought we were going to do "green field" work.
+
+#### We ended up mostly doing app and team rescues.
+
+---
+
+### Spent 2 1/2 years at GitHub.
+
+<br/>
+
+#### We kind of thought we were going to do "green field" work. _(§)_
+
+#### We ended up mostly doing app and team rescues.
+
+---
+
+### That's a pretty consistent streak of cleaning up after people.
+
+---
+
+### I found myself asking "what is the common factor here?"
 
 ---
 
 ![](images/rick.png)
 
-### github.com/rick
+---
+
+### Obviously, it's working on "apps".
 
 ---
+
+###  I've been at Puppet Labs for just over a year.
+
+<br/>
+
+#### Had no illusions that I would be doing "green field" work.
+
+#### I am not working on "apps" now.
+
+#### Currently revamping our processes and streamlining testing, delivery, etc.
+
+---
+
+### i.e., "(_something something_) and team rescues"...
+
+---
+
+![](images/wthhybl.jpg)
+
+---
+
+---
+
+## "Rescues"
+
+---
+
+### What does that even mean?
+
+---
+
+Something exists that is worth keeping around
+
+---
+
+(it's probably getting more and more valuable over time)
+
+---
+
+That something is in a far from ideal state
+
+---
+
+It's big enough that starting over isn't really an option
+
+---
+
+---
+
+## How did we get here?
+
+---
+
+TODO: expand
+short version:
+
+ - insight: we saw a need for a tool
+   - venn diagram: this was something that we could do better than someone else, it was something that solves a clear and persistent problem, and it is something someone is willing to pay for (h/t @ahpook)
+   - we got into the market and had some early success
+   - we built on that success and chased the market up
+   - we ended up being one of those groups of people who were still left standing some time down the road
+
+ - prioritization:
+   - we have only limited resources
+   - on the way up we are best spent capturing as much of the market as we can per unit of work
+   - if we spend much time otherwise engaged we die
+   - "technical debt" is like the aggregate affects of lung can_create_repository
+   - gunslingers are way more likely to get shot than they are to live until they develop cancer or emphysema
+
+ - At some point the Wild West settles down
+   - the gunslinger has a little ranch, maybe a family
+   - it's probably time to quit smoking
+
+ - That was totally a metaphor, y'all
+
+---
+
+## How do we get out of here?
+
+---
+
+### Let's think about that "rescue" stuff again
+
+---
+
+ - Something exists that is worth keeping around
+   - (it's probably getting more and more valuable over time)
+ - That something is in a far from ideal state
+ - It's big enough that starting over isn't really an option
+
+---
+
+### While we are often inclined to believe that the "something" is just a bunch of code somewhere, that's a dangerous belief
+
+---
+
+## Conway's Law
+
+---
+
+> Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.
+
+<div align="right"><em> -- Melvin Conway</em></div>
+
+---
+
+### Blah blah blah
+
+<br/>
+
+### We've probably all heard this before
+
+---
+
+> If you have four groups working on a compiler, you'll get a 4-pass compiler.
+
+<div align="right"><em> -- ESR</em></div>
+
+---
+
+### Same thing, but for those people who like to talk about ALGOL
+
+---
+
+> The structure of a problem reflects the structure of the organization that created it.
+
+<div align="right"><em> -- Bill Corcoran</em></div>
+
+---
+
+### Now we're getting somewhere
+
+---
+
+### I would actually go further
+
+---
+
+> Every facet of the systems produced by an organization is a direct result of the interactions of the personalities in that organization during the building of that system.
+
+---
+
+
+
+---
+
 
 ## long refactorings
 <br/>
@@ -907,6 +1135,11 @@
 
 ---
 
+## Image credits:
+
+https://www.flickr.com/photos/jobless_photoman/7512657396/
+
+---
 
 ## Image credits:
 
