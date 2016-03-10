@@ -512,7 +512,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### For the efforts worth doing
+### **For the efforts worth doing**
 
 <br/>
 
@@ -521,7 +521,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### There are enough risks that success is unlikely
+### **There are enough risks that success is unlikely**
 
 <br/>
 
@@ -530,7 +530,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### There are enough risks that success is unlikely
+### **There are enough risks that success is unlikely**
 
 <br/>
 
@@ -539,7 +539,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### There are enough risks that success is unlikely
+### **There are enough risks that success is unlikely**
 
 <br/>
 
@@ -548,7 +548,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### There are enough risks that success is unlikely
+### **There are enough risks that success is unlikely**
 
 <br/>
 
@@ -557,7 +557,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### There are enough risks that success is unlikely
+### **There are enough risks that success is unlikely**
 
 <br/>
 
@@ -567,7 +567,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### There are enough risks that success is unlikely
+### **There are enough risks that success is unlikely**
 
 <br/>
 
@@ -576,344 +576,52 @@ It's big enough that starting over isn't really an option
 
 ---
 
-# TODO: work here -- cut out most of the low-level refactoring stuff; include the characterization testing and long refactorings stuff
+---
 
-# TODO: bring DDD back in
-#  - shared language
-#  - building consensus
-#  - organizing / self-organizing
-#  - communicating
-#  - prioritizing
-#  - "big ball of mud" is totally fine; focus on the one thing
-#  - for cross-cutting concerns: introduce metrics; understand the goal; iteratively, repeatedly refine against metrics; set standards and best practices internally
-
-## long refactorings
-<br/>
+## Technical, um, techniques
 
 ---
 
-## long refactorings are simply refactorings
-### only, (IN HINDSIGHT) they end up taking a lot longer than most refactorings
-
----
-
-### Stepping back for a second...
-## What *is* "refactoring"?
-
----
-
-## Refactoring...
+### Do small refactorings when changing a system
+### Be knowledgeable of the techniques in Martin Fowler's _Refactoring_ book.
 
 <br/>
 
-### **"behavior-preserving changes to the implementation of a system"**
-
----
-
-![](images/refactoringBook.jpg)
-
----
-
-![](images/extract-method.png)
-
-<br/>
-
-<br/>
-
-<br/>
-
-`http://refactoring.com/catalog/extractMethod.html`
-
----
-
-![](images/inline-method.png)
-
-<br/>
-
-<br/>
-
-<br/>
-
-`http://refactoring.com/catalog/inlineMethod.html`
-
----
-
-## **"behavior-preserving changes to the implementation of a system"**
-
-<br/>
-
-### This is really only true for the smallest of refactorings.
-
-<br/>
-<br/>
-
-### In larger-scale refactorings we're typically chaining together a series of behavior-preserving changes, interspersed with behavior changes.
-
-<br/>
-
-### The important things are to always know which is which, and to do them intentionally.
-
----
-
-## why do we refactor?
-
----
-
-### **wankery**
-
----
-
-### (primarily)
-
----
-
-### but also...
-
----
-
-### to understand the system
-
----
-
-
-### to understand the system
-### to bring behavior under test
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-### to improve some facet of the system (performance, memory use, coupling, cohesion, etc., etc., etc.)
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-### to improve some facet of the system (performance, memory use, coupling, cohesion, etc., etc., etc.)
-### to reuse existing code elsewhere
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-### to improve some facet of the system (performance, memory use, coupling, cohesion, etc., etc., etc.)
-### to reuse existing code elsewhere
-### to make room for a new feature
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-### to improve some facet of the system (performance, memory use, coupling, cohesion, etc., etc., etc.)
-### to reuse existing code elsewhere
-### to make room for a new feature
-### to prepare to fix a bug
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-### to improve some facet of the system (performance, memory use, coupling, cohesion, etc., etc., etc.)
-### to reuse existing code elsewhere
-### to make room for a new feature
-### to prepare to fix a bug
-### ...
-
----
-
-### to understand the system
-### to bring behavior under test
-### to extract code for reuse
-### to improve some facet of the system (performance, memory use, coupling, cohesion, etc., etc., etc.)
-### to reuse existing code elsewhere
-### to make room for a new feature
-### to prepare to fix a bug
-
----
-
-## optimization
-<br/>
-<br/>
-
----
-
-## optimization
-<br/>
-### no, I mean, like, life optimization
-
----
-
-![](images/small-car.jpg)
-
-## refactoring a toy system
-
----
-
-![](images/small-car.jpg)
-
-## refactoring a toy system
-
-### it could be for learning purposes
-### or perhaps the hope is that some day it will grow up to be a big system
-#### one that someone has a use for
-
----
-
-![](images/small-car.jpg)
-
-## refactoring a toy system
-
-### The value is in building something useful
-
-<br/>
-
-### Even here, though, we have finite time and resources
-### So we choose what to work on
-
----
-
-![](images/india-bus.jpg)
-
-## refactoring a system that people are actively using
-
----
-
-![](images/india-bus.jpg)
-
-### Again, limited time and resources,
-### so we must make choices about what to work on,
-### because the time spent on one thing cannot be spent on another.
-
----
-
-## refactoring to understand a system
-### &nbsp;
-
----
-
-## refactoring to understand a system
-### is useful if it is directed towards implementing a feature or fixing a bug
----
-
-## refactoring to bring behavior under test
-### &nbsp;
-### &nbsp;
-
----
-
-## refactoring to bring behavior under test
-### &nbsp;
-### &nbsp;
-
----
-
-## refactoring to bring behavior under test
-### is wasteful, unless it's being immediately driven by fixing a bug or implementing a feature
-
----
-
-## refactoring to extract code for reuse
-### &nbsp;
-### &nbsp;
-
----
-
-## refactoring to extract code for reuse
-### is wasteful, unless we have reached the point where a new feature is ready to use that extraction
-
----
-
-## refactoring to improve some facet of the system
-### &nbsp;
-### &nbsp;
-
----
-
-## refactoring to improve some facet of the system
-### is generally a good reason to refactor, if this is the most important thing you could be working on right now
-
----
-
-## refactoring to make room for a new feature
-### &nbsp;
-
----
-
-## refactoring to make room for a new feature
-### is great, presuming you're implementing that feature right now
-
----
-
-## refactoring to prepare to fix a bug
-### &nbsp;
-
----
-
-## refactoring to prepare to fix a bug
-### also great, if you're fixing the bug right now
-
----
-
----
-
-## optimization
-### part deux
-
----
-
-![](images/matchbox-car.jpg)
-
-## most refactorings are small or trivial
-
-<br/>
-
-### There's really no estimation involved:
-### look at the code, start making the changes.
-
-<br/>
-
-### We're using techniques in Martin Fowler's _Refactoring_ book.
-
-<br/>
-
-### The refactorings are a commit or few,
+### Refactorings at this scale are a commit or few,
 ### inside the boundary of a larger pull request,
 ### dedicated to a feature or a bugfix.
 
 ---
 
-![](images/tonka-truck.jpg)
+### Your test suite is almost certainly insufficient to support large changes
 
-## many refactorings are a bit larger
+---
 
-<br />
+### If your test suite *is* sufficient to support large changes
 
-### Suitable for a pair of programmers working on an afternoon,
-### we can estimate them fairly accurately or do without estimation.
+<br/>
 
-<br />
-### We can use simple tools and processes, like feature branches, pair programming, a second or third Pull Request.
+### You squandered resources at some point
 
-<br />
+---
 
-### We start to use more advanced techniques.
+### Drive change via tests
+
+<br/>
+
+### Increase test coverage as you make changes
+
+<br/>
+
+### "Characterize" behaviors before changing them
 
 ---
 
 ![](images/working-effectively.jpg)
 
-## We start to draw on these techniques
+---
+
+### Work to be expert in the techniques Michael Feathers outlines:
 
 <br/>
 
@@ -921,106 +629,50 @@ It's big enough that starting over isn't really an option
 
 ---
 
----
-
-![](images/dump-truck-large.jpg)
+### There are different understandings of your world throughout your organization
 
 ---
 
-![](images/dump-truck-med.jpg)
+### Changing the system requires joint understanding
 
-## We eventually encounter refactorings that we know are projects
+<br/>
+
+### Develop and write down a shared language
+### Understand the boundaries between parts of the system
 
 ---
 
+### i.e., use Domain-Driven Design
 
-![](images/dump-truck-med.jpg)
-
-## We eventually encounter refactorings that we know are projects
-
-<br/>
-
-### These refactorings are non-trivial and perhaps not even possible.
-### Even the process of estimation is difficult.
+![](domain-driven-design)
 
 ---
 
-![](images/road-block.jpg)
+### The "Big Ball of Mud" is fine
 
 <br/>
 
-### We only consider them because they are roadblocks to important features, or there are real quality problems in this part of the system, and piecemeal attempts at bugfixing fail to eliminate problems.
+### Any given initiative should focus on one thing
+### Don't be distracted by wide-ranging cleanup efforts
 
 ---
 
-### Developers who go into these areas come back angry and muttering, they turn to the solace of drink.
-
-<br/>
-
-<center>
-![](images/dat-rooster.jpg)
-</center>
-
-<br/>
-
-## Good people are reduced to bad things.
+## Larger efforts
 
 ---
 
-## Tackling these ugly jobs is what we're here to talk about.
-
----
-
-![](images/mechanic.jpg)
-
-## So how do we tackle these huge refactorings?
-
----
-
-![](images/miner.jpg)
-
-<br/>
-
-## Start with exploration
-
-<br/>
-
-### Spec out possible alternate architectures as proofs of concept.
-### &nbsp;
-
----
-
-![](images/miner.jpg)
-
-<br/>
-
-
-## Start with exploration
-
-<br/>
-
-### Various people in ones and twos take stabs at feasibility over the course of months or years.
-
----
-
-![](images/miner.jpg)
-
-<br/>
-
-
-## Start with exploration
-
-<br/>
-
-### Do throw-away experimental refactorings of a smaller scope just to see if a large refactoring might be possible.
+### Understand the goal
+### Introduce metrics as safeguards
+### Introduce metrics as approximations of the goal
+### Incrementally and iteratively refine the system towards optimizing those metrics
 
 ---
 
 ![](images/mikado.jpg)
 
-<br/>
+---
 
-### use techniques like those from _The Mikado Method_ to even explore the possible refactorings
+### use techniques like those from _The Mikado Method_ to explore the feasibility of a significant system change
 
 ---
 
@@ -1033,89 +685,17 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## getting real
-
 ---
 
-## "abilities"
-
----
-
-![](images/permission-bug-0.png)
-
-**June 2012**
-
----
-
-![](images/permission-bug-1.png)
-
-**July 2012**
-
----
-
-![](images/permission-bug-2.png)
-
-**July 2012**
-
----
-
-![](images/permission-bug-3.png)
-
-**July 2012**
-
-
----
-
-![](images/permission-bug-4.png)
-
-**July 2012**
+## Oh, right.  "abilities"
 
 ---
 
 
-![](images/permission-bug-5.png)
-
-**August 2012**
-
----
-
-![](images/permission-bug-6.png)
-
-**September 2012**
-
----
-
-![](images/permission-bug-7.png)
-
-**September 2012**
-
----
-
-![](images/permission-bug-8.png)
-
-**September 2012**
-
----
-
-
-![](images/permission-bug-9.png)
-
-**September 2012**
-
----
-
-
-![](images/permission-bug-10.png)
-
-**November 2012**
-
----
-
-## A Long Refactoring Kicks Off
-
-### Ongoing quality problems in an important part of the system
+### We had ongoing quality problems in an important part of the system
 ### Repeated bugfixing did not improve quality significantly
 ### High level feature changes roadblocked by this core subsystem
+### We had built enough consensus, tied to large initiatives, to move this forward
 
 ---
 
@@ -1139,9 +719,25 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## (let's look at those issues)
+### **From a DDD perspective**
+
+<br/>
+
+### The User / Organization / Team domains had never been properly understood, and were confusingly implemented
+<br/>
+### We were able to refine these concepts enough to move forward, and refined our shared understanding as necessary
 
 ---
+
+### **From a DDD perspective**
+
+<br/>
+
+### The domain concept of a Permission was also weakly understood, and its relationships to Repositories were often implicit
+
+<br/>
+
+### We brought forward the concept of a Capability as a first-class domain concept
 
 ---
 
@@ -1171,16 +767,24 @@ It's big enough that starting over isn't really an option
 
 ![](images/scientist.jpg)
 
+### Wired: "[Clever New GitHub Tool Lets Coders Build Software Like Bridges](http://www.wired.com/2016/02/rebuilding-modern-software-is-like-rebuilding-the-bay-bridge/)"
+
+---
+
+### LOL
+
 ---
 
 ![](images/dat-science.png)
+
+### Aka [https://github.com/github/scientist](https://github.com/github/scientist)
 
 ---
 
 ![](images/dat-science-perf.png)
 
 ### We built tools to let us (and anyone) run two code paths side-by-side.
-### Then performance data is published by instrumentation into our graphite cluster.
+### Then performance data was published by instrumentation into our graphite cluster.
 
 ---
 
@@ -1193,8 +797,8 @@ It's big enough that starting over isn't really an option
 <br/>
 
 ### Long-running branches are kryptonite.
-### We can land short-lived branches to "dark ship" new code.
-### With science and instrumentation tools we can gather real production measurements in a controlled fashion.
+### We could land short-lived branches to "dark ship" new code.
+### With science and instrumentation tools we could gather real production measurements in a controlled fashion.
 
 ---
 
@@ -1211,19 +815,6 @@ It's big enough that starting over isn't really an option
 ---
 
 ![](images/caps-transitions.png)
-
----
-
-## The project will ebb and flow
-
-<br/>
-
-### Always have enough side project work available that you can stay fresh and not get bogged down.
-### People will come and go (and often return) on a truly long refactoring.
-### You will be at an impasse many times.
-### Rely on your team, and allow yourself to experiment with crazy things.
-### Your creativity is an asset.
-
 
 ---
 
@@ -1250,7 +841,19 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## Staying alive
+## The project will ebb and flow
+
+<br/>
+
+### Always have enough side project work available that you can stay fresh and not get bogged down.
+### People will come and go (and often return) on a truly long refactoring.
+### You will be at an impasse many times.
+### Rely on your team, and allow yourself to experiment with crazy things.
+### Your creativity is an asset.
+
+---
+
+## Keeping a long project running
 
 <br/>
 
@@ -1258,9 +861,9 @@ It's big enough that starting over isn't really an option
 ### Rely on your peoples.
 ### Keep close.
 ### Work-life balance is important.
-### This is a marathon.
+### Treat it as a marathon.
 ### Take a vacation.
-### You actually can leave and do something else.
+### You actually can leave and go or do something else.
 ### It's fine.
 
 ---
@@ -1269,7 +872,7 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### Repository Networks were all jacked up at the model level.
+### "Repository Networks" were all jacked up at the model level.
 ### &nbsp;
 ### &nbsp;
 
@@ -1279,7 +882,7 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### Repository Networks were all jacked up at the model level.
+### "Repository Networks" were all jacked up at the model level.
 ### "plan owner" data was all shitty due to old bad job processes.
 ### &nbsp;
 
@@ -1289,9 +892,10 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### Repository Networks were all jacked up at the model level.
+### "Repository Networks" were all jacked up at the model level.
 ### "plan owner" data was all shitty due to old bad job processes.
 ### Forking and collaborators were all sorts of stupid.
+
 
 ---
 
@@ -1302,6 +906,16 @@ It's big enough that starting over isn't really an option
 ### You re-learn that you everything is connected.
 ### You end up having to fix way more things than you hoped.
 ### And you make some trade-offs and draw boundaries.
+
+---
+
+### To reiterate an earlier point:
+
+<br/>
+
+### Your test suite is insufficient, even at 100% coverage
+### because your test suite can't account for your production data
+### and your whole history of bugs and bugfixes
 
 ---
 
@@ -1319,10 +933,13 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## Estimation
+### It can be difficult or impossible to estimate significant changes to an ongoing system
 
-### There is no way I have seen to estimate a long refactoring.
-### What you can do is not be a blocker, and continue to negotiate what is the most important thing to fix Right Now.
+<br/>
+
+### Keep iterating.
+### Continually communicate and re-negotiate next steps
+### Work on the most important blocker Right Now
 
 ---
 
@@ -1384,13 +1001,13 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## Other long ships
+## Other GitHub "scientist" ships
 
 ---
 
 ![](images/rails3.png)
 
-## Rails 3
+### Rails 3
 
 <br/>
 
@@ -1400,7 +1017,109 @@ It's big enough that starting over isn't really an option
 
 ![](images/gitrpc.gif)
 
-## GitRPC
+### GitRPC
+
+---
+
+## Puppet Labs
+
+---
+
+### Landed into Engineering as a "Principal Engineer"
+
+<br/>
+
+### Because I sort of stumbled into the door, they didn't really know where to put me
+
+---
+
+### Given that I had a history of being a "rescuer", pretty sure no one really wanted me on their team
+
+---
+
+### So I landed in "Integration"
+<br/>
+### Which is a team of heavy hitters charged with cleaning up whatever comes downstream from the rest of engineering and needs to work well in the released product.
+
+---
+
+![](that-issue-from-feb-20th)
+
+### Lots of bottlenecks and process failures
+
+---
+
+### A more classic cousin of Conway's Law
+
+---
+
+### At some point QA, release engineering, and test automation were moved out into a separate division of Engineering
+
+<br/>
+
+### As a result, eventually developers did not own how their software was tested, how it was built, how it came together for release.
+
+---
+
+### Lots of things went "over the wall"
+### Feedback loops got long, developers were unempowered, product releases slowed down, frustration and finger-pointing escalated.
+
+<br/>
+
+### Release engineering eventually got sick of fixing software thrown over the wall, and so the Integration team was born. Closer to home, but still "over the fence"
+
+---
+
+### In early 2014 there were technical attempts to fix problems, starting with the CI (test) system, but the efforts petered out with no significant change.
+### In early 2015 there were "proof of concept" experiments (like we'd done at GitHub with permissioning systems), but they never moved forward.
+
+---
+
+### The fundamental problems were organizational
+<br/>
+
+### Interpersonal and team dynamics that persist over years
+### Self-reinforcing patterns of behavior that prevent real change from happening
+### Siloing of teams with thick walls preventing cross-cutting change
+
+---
+
+## What now?
+
+---
+
+### We moved testing pipeline definition into version control and made it more self-service
+### This only took a little concensus building, and the benefits were obvious
+### The side effect is that it makes developers more involved in the testing cycle (it's less over-the-wall)
+
+---
+
+### We started a cross-functional group called The Pit Crew which brings in high-level engineers and test/release folks
+### It is HIGHLY transparent (more so than any other high-level group in the company)
+### Its goal is to find the biggest bottlenecks in the development-to-release product and have actual teams prioritize those fixes.
+
+---
+
+### For this we had to build high-level VP/C* consensus that these fixes were necessary to deliver product in the future.
+### The payoff is that we already have big bottlenecks being tackled by specific people in active sprints.
+
+---
+
+### We are rolling out a long-term (1 year+) revamp of our CI/build/release infrastructure
+### We need to alleviate fundamental performance and capacity problems
+### We need to address deep UX problems, and to make it even more self-service
+
+---
+
+## Building consensus
+
+---
+
+### Working 100% in the open
+### Gathering feedback, and conducting group therapy
+### Avoiding the pitfalls of the last attempt (lack of decision-making)
+### Fighting Second System Syndrome™
+### Cutting through silos
 
 ---
 
@@ -1436,18 +1155,19 @@ https://www.flickr.com/photos/pixbymaia/9662665997/
 https://www.flickr.com/photos/usnavy/7070501561/
 https://www.flickr.com/photos/loshak/4839254506/
 
-<br/>
+---
 
 ## Images origin unknown:
 
  - "What the hell have you built."
- - the drinking rooster
  - "What the hell did you build, Luke???"
+ - the drinking rooster
 
 ---
 = data-x="1000" data-scale-"2" data-rotate-y="45" data-z="10000"
 
-![](some image)
+![](images/dat-rooster.jpg)
+
 
 ### (musical interlude)
 
