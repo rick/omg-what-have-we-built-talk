@@ -234,14 +234,42 @@ short version:
 
 ---
 
-> Every facet of the systems produced by an organization is a direct result of the interactions of the personalities in that organization during the building of that system.
+> Every aspect of a system is a direct result of the interactions of the personalities who built that system.
 
 ---
 
-
+### The features of a system derive from the personalities who built it, acting during a time when those features made some sort of sense.
 
 ---
 
+### The haphazard construction of parts of a system result from a time where the people involved could do nothing but make those parts haphazard.
+
+---
+
+### The connections and couplings between parts of a system reflect times when people worked together on those systems.
+
+---
+
+### A "rescue" is taking a thing which excelled by a set of past values and transforming it in an attempt to excel by a set of current or future values.
+
+---
+
+---
+
+## The technical
+
+---
+
+# TODO: work here -- cut out most of the low-level refactoring stuff; include the characterization testing and long refactorings stuff
+
+# TODO: bring DDD back in
+#  - shared language
+#  - building consensus
+#  - organizing / self-organizing
+#  - communicating
+#  - prioritizing
+#  - "big ball of mud" is totally fine; focus on the one thing
+#  - for cross-cutting concerns: introduce metrics; understand the goal; iteratively, repeatedly refine against metrics; set standards and best practices internally
 
 ## long refactorings
 <br/>
