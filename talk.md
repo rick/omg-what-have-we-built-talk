@@ -79,7 +79,7 @@
 
 <br/>
 
-#### We kind of thought we were going to do "green field" work. _(§)_
+#### We kind of thought we were going to do "green field" work. [_(§)_](https://github.com/rick/roll)
 
 #### We ended up mostly doing app and team rescues.
 
@@ -171,9 +171,10 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### Awwwww. maaaan.
 
-![]()
+![](images/no-ice-cream-left.jpg)
+
+### Awwwww. maaaan.
 
 ---
 
@@ -217,7 +218,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### I would go further
+### Bringing it back to systems, I understand another variant
 
 ---
 
@@ -262,7 +263,7 @@ It's big enough that starting over isn't really an option
 
 <center>
 
-![somesortofsuccessimage]()
+![lolsuccess](images/lol-success.jpg)
 
 ### We got into the market and had some early success
 
@@ -276,7 +277,7 @@ It's big enough that starting over isn't really an option
 
 <center>
 
-![lastmanstandingimage]()
+![](images/mad-max.jpg)
 
 ### We ended up being one of those groups of people who were still left standing some time down the road
 
@@ -284,22 +285,20 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### (interlude)
+### [(interlude)](https://www.youtube.com/watch?v=4nsKDJlpUbA)
 
 ---
 
 <center>
 
-![anicca]()
-
-### Otherwise known as "impermanence"
+### Impermanence
 
 </center>
 
 ---
 
 <center>
-![](lebowski-new-shit)
+![](images/new-shit.jpg)
 
 ### New shit has come to light
 </center>
@@ -340,38 +339,28 @@ It's big enough that starting over isn't really an option
 
 ---
 
-![](gunslinger/magnificent-7)
+![](images/wild-west.jpg)
 
 ### In the (Hollywood) Wild West
 
 ---
 
-![](gunslingers shooting)
+![](images/gunfight.gif)
 
 ### Gunslingers were much more likely to get shot
 
 ---
 
-![](gunslinger smoking)
+![](images/smoking.gif)
 
 ### Than to live so long they could die of lung cancer
 
 ---
 
-![](civiled-wild-west-town)
+![](images/eastwood-doctor.jpg)
 
-### Eventually things settle down
-
----
-
-![](little ranch)
-
+### Eventually things get calmer
 ### And a gunslinger who lived, might even settle down
-
----
-
-![](quit smoking)
-
 ### At which point, lung cancer and emphysema become actual risks
 
 ---
@@ -401,7 +390,6 @@ It's big enough that starting over isn't really an option
 ## Case study: Abilities
 
 ---
-
 
 
 ![](images/permission-bug-0.png)
@@ -487,7 +475,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### Without these people will work at cross purposes and positive change will be hugely difficult
+### Without these, people will work at cross purposes and positive change will be hugely difficult
 
 ---
 
@@ -502,9 +490,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### I have spoken elsewhere about the different sizes of intentional change
-
-### See my ["Long Refactorings"](http://rick.github.io/long-refactorings-talk/) talk for details
+### I have spoken elsewhere about the different sizes of intentional change (see my ["Long Refactorings"](http://rick.github.io/long-refactorings-talk/) talk for details)
 
 <br/>
 
@@ -642,18 +628,28 @@ It's big enough that starting over isn't really an option
 
 ---
 
+![](images/ddd.jpg)
+
 ### i.e., use Domain-Driven Design
 
-![](domain-driven-design)
 
 ---
 
-### The "Big Ball of Mud" is fine
+### The "Big Ball of Mud" architecture is fine
 
 <br/>
 
 ### Any given initiative should focus on one thing
 ### Don't be distracted by wide-ranging cleanup efforts
+
+---
+
+### Don't be distracted by Cool™ New® Technologies¥
+### Always use off-the-shelf until you're backed into a corner
+
+---
+
+### You're probably not backed into a corner. Stop it.
 
 ---
 
@@ -672,7 +668,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### use techniques like those from _The Mikado Method_ to explore the feasibility of a significant system change
+### Use techniques like those from _The Mikado Method_ to explore the feasibility of a significant system change
 
 ---
 
@@ -831,13 +827,13 @@ It's big enough that starting over isn't really an option
 
 ![](images/backscatter-2.png)
 
-### Just a glorified wrapper around ruby's `caller` method.
+### Just a glorified wrapper around ruby's `caller` method
 
 ---
 
 ![](images/nil-can.png)
 
-### ... which can be put to holy or horrible uses.
+### ... which can be put to holy or horrible uses
 
 ---
 
@@ -846,7 +842,7 @@ It's big enough that starting over isn't really an option
 <br/>
 
 ### Always have enough side project work available that you can stay fresh and not get bogged down.
-### People will come and go (and often return) on a truly long refactoring.
+### People will come and go (and often return) on a long project.
 ### You will be at an impasse many times.
 ### Rely on your team, and allow yourself to experiment with crazy things.
 ### Your creativity is an asset.
@@ -872,7 +868,7 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### "Repository Networks" were all jacked up at the model level.
+### "Repository Networks" were all jacked up at the model level
 ### &nbsp;
 ### &nbsp;
 
@@ -882,8 +878,8 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### "Repository Networks" were all jacked up at the model level.
-### "plan owner" data was all shitty due to old bad job processes.
+### "Repository Networks" were all jacked up at the model level
+### "plan owner" data was all shitty due to old bad job processes
 ### &nbsp;
 
 ---
@@ -892,9 +888,9 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### "Repository Networks" were all jacked up at the model level.
-### "plan owner" data was all shitty due to old bad job processes.
-### Forking and collaborators were all sorts of stupid.
+### "Repository Networks" were all jacked up at the model level
+### "plan owner" data was all shitty due to old bad job processes
+### Forking and collaborators were all sorts of stupid
 
 
 ---
@@ -903,13 +899,19 @@ It's big enough that starting over isn't really an option
 
 <br />
 
-### You re-learn that you everything is connected.
-### You end up having to fix way more things than you hoped.
-### And you make some trade-offs and draw boundaries.
+### You re-learn that you everything is connected
+### You end up having to fix way more things than you hoped
+### And you make some trade-offs and draw boundaries
 
 ---
 
-### To reiterate an earlier point:
+### Those of you familiar with DDD should be hearing bells ringing right now:
+
+## Bounded contexts!!!
+
+---
+
+### Also, to reiterate an earlier point:
 
 <br/>
 
@@ -923,9 +925,9 @@ It's big enough that starting over isn't really an option
 
 <br />
 
-### So we wrote data quality scripts to find problems.
-### We wrote transition scripts to clean up problems.
-### We wrote throttling tools to make massive transitions never hurt production.
+### So we wrote data quality scripts to find problems
+### We wrote transition scripts to clean up problems
+### We wrote throttling tools to make massive transitions never hurt production
 
 ---
 
@@ -937,7 +939,7 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### Keep iterating.
+### Keep iterating
 ### Continually communicate and re-negotiate next steps
 ### Work on the most important blocker Right Now
 
@@ -951,18 +953,18 @@ It's big enough that starting over isn't really an option
 
 ## Enterprise
 
-### Installed GitHub instances behind company firewalls.
-### Often 6 months behind github.com code base.
-### Customers can be 300+ days behind last Enterprise release.
-### We have almost zero visibility into installed versions and data quality at a customer's site.
-### There are disabled and enabled github.com features on Enterprise.
+### Installed GitHub instances behind company firewalls
+### Back then were often 6 months behind github.com code base
+### Customers could be 300+ days behind last Enterprise release
+### We had almost zero visibility into installed versions and data quality at a customer's site
+### There were disabled and enabled github.com features on Enterprise
 
 ---
 
 ## Enterprise
 
-### Data transitions for github.com are bundled with migrations for Enterprise upgrades.
-### Database tables and ActiveRecord models persist in github.com code until Enterprise is fully upgraded.
+### Data transitions for github.com were bundled with migrations for Enterprise upgrades
+### Database tables and ActiveRecord models persisted in github.com code until Enterprise was fully upgraded
 
 ---
 
@@ -974,10 +976,10 @@ It's big enough that starting over isn't really an option
 
 ## Shipping
 
-### Made abilities be the "source of truth" for read queries on teams, and orgs.
-### Made abilities be the "source of truth" for repository read queries.
-### Continue writing data to *both* permissions systems.
-### Gradual removal of science experiment code.
+### Made abilities be the "source of truth" for read queries on teams, and orgs
+### Made abilities be the "source of truth" for repository read queries
+### Continue writing data to *both* permissions systems
+### Gradual removal of science experiment code
 
 ---
 
@@ -1029,27 +1031,26 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### Because I sort of stumbled into the door, they didn't really know where to put me
+### Since all the engineering leads were already, well, leading, I got the opportunity to just roam around for a bit looking at how things work.
+
+<br/>
+### (Also, given that I had a history of being a "rescuer", pretty sure no one really wanted me on their team, hahaha)
 
 ---
 
-### Given that I had a history of being a "rescuer", pretty sure no one really wanted me on their team
-
----
-
-### So I landed in "Integration"
+### So I hung out with the "Integration" team
 <br/>
 ### Which is a team of heavy hitters charged with cleaning up whatever comes downstream from the rest of engineering and needs to work well in the released product.
 
 ---
 
-![](that-issue-from-feb-20th)
+![](images/bottlenecks.png)
 
 ### Lots of bottlenecks and process failures
 
 ---
 
-### A more classic cousin of Conway's Law
+### A more classic cousin of Conway's Law...
 
 ---
 
@@ -1057,25 +1058,28 @@ It's big enough that starting over isn't really an option
 
 <br/>
 
-### As a result, eventually developers did not own how their software was tested, how it was built, how it came together for release.
+### As a result, eventually developers did not own how their software was tested, how it was built, how it came together for release
 
 ---
 
-### Lots of things went "over the wall"
-### Feedback loops got long, developers were unempowered, product releases slowed down, frustration and finger-pointing escalated.
+### **Lots of things went "over the wall"**
+<br/>
+### Feedback loops got long, developers were unempowered, product releases slowed down, frustration and finger-pointing escalated
 
 <br/>
 
-### Release engineering eventually got sick of fixing software thrown over the wall, and so the Integration team was born. Closer to home, but still "over the fence"
+### My hazy understanding: Release engineering eventually got sick of fixing software thrown over the wall, and so the Integration team was born (closer to home, but still "over the fence")
 
 ---
 
-### In early 2014 there were technical attempts to fix problems, starting with the CI (test) system, but the efforts petered out with no significant change.
-### In early 2015 there were "proof of concept" experiments (like we'd done at GitHub with permissioning systems), but they never moved forward.
+### In early 2014 there were technical attempts to fix problems, starting with the CI (test) system, but the efforts petered out with no significant change
+
+<br/>
+### In early 2015 there were "proof of concept" experiments (like we'd done at GitHub with permissioning systems), but they never moved forward
 
 ---
 
-### The fundamental problems were organizational
+### **The fundamental problems were organizational**
 <br/>
 
 ### Interpersonal and team dynamics that persist over years
@@ -1089,23 +1093,41 @@ It's big enough that starting over isn't really an option
 ---
 
 ### We moved testing pipeline definition into version control and made it more self-service
-### This only took a little concensus building, and the benefits were obvious
+
+<br/>
+
+### This only took a little concensus building, and the stability benefits were obvious
+
+<br/>
+
 ### The side effect is that it makes developers more involved in the testing cycle (it's less over-the-wall)
 
 ---
 
 ### We started a cross-functional group called The Pit Crew which brings in high-level engineers and test/release folks
+
+<br/>
+
 ### It is HIGHLY transparent (more so than any other high-level group in the company)
-### Its goal is to find the biggest bottlenecks in the development-to-release product and have actual teams prioritize those fixes.
+
+<br/>
+
+### Its mandate is to find the biggest bottlenecks in the development-to-release cycle and have actual teams prioritize those fixes
 
 ---
 
-### For this we had to build high-level VP/C* consensus that these fixes were necessary to deliver product in the future.
-### The payoff is that we already have big bottlenecks being tackled by specific people in active sprints.
+### For this we had to build high-level consensus that these fixes were necessary to deliver product in the future (because this effort pushes back on product feature work!)
+
+<br/>
+
+### The proof of the commitment is that we already have big bottlenecks being tackled by real people
 
 ---
 
 ### We are rolling out a long-term (1 year+) revamp of our CI/build/release infrastructure
+
+<br/>
+
 ### We need to alleviate fundamental performance and capacity problems
 ### We need to address deep UX problems, and to make it even more self-service
 
@@ -1117,11 +1139,19 @@ It's big enough that starting over isn't really an option
 
 ### Working 100% in the open
 ### Gathering feedback, and conducting group therapy
-### Avoiding the pitfalls of the last attempt (lack of decision-making)
+### Naming the problems to be solved, and the techniques used to solve them
+### Avoiding the pitfalls of previous attempts
+### Building a roadmap, but keeping downstream intentionally un-detailed
 ### Fighting Second System Syndrome™
 ### Cutting through silos
 
 ---
+
+![](images/roadmap.png)
+
+---
+
+![](images/show-me-what-you-got.jpg)
 
 ## Questions?
 
@@ -1132,28 +1162,14 @@ It's big enough that starting over isn't really an option
 
 https://www.flickr.com/photos/jobless_photoman/7512657396/
 octocats: [the octodex](https://octodex.github.com) and its creators
-
----
-
-## Image credits:
-
-https://www.flickr.com/photos/mozul/31304173/
-https://www.flickr.com/photos/uspn/4894253589/
-https://www.flickr.com/photos/nate_marsh/5213604228/
+https://www.flickr.com/photos/alastair-dunning/5250713135/
+https://www.flickr.com/photos/37676753@N08/5117011208/
+https://www.flickr.com/photos/affers/10562940573/
+http://i.imgur.com/M7scT7C.jpg
+https://en.wikipedia.org/wiki/List_of_Old_West_gunfighters
 https://www.flickr.com/photos/steveallen/3324325493/
-https://www.flickr.com/photos/ckrug/162099232/
-https://www.flickr.com/photos/slagheap/156203875/
-
----
-
-## Image credits:
-
-https://www.flickr.com/photos/j3net/480637896/
-https://www.flickr.com/photos/jmabel/4516193497/
-https://www.flickr.com/photos/27271711@N04/3643199789/
 https://www.flickr.com/photos/pixbymaia/9662665997/
 https://www.flickr.com/photos/usnavy/7070501561/
-https://www.flickr.com/photos/loshak/4839254506/
 
 ---
 
@@ -1162,6 +1178,7 @@ https://www.flickr.com/photos/loshak/4839254506/
  - "What the hell have you built."
  - "What the hell did you build, Luke???"
  - the drinking rooster
+ - everything else: The Internets
 
 ---
 = data-x="1000" data-scale-"2" data-rotate-y="45" data-z="10000"
