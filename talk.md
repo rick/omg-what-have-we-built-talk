@@ -143,52 +143,9 @@ It's big enough that starting over isn't really an option
 
 ---
 
----
-
-## How did we get here?
+### We are often inclined to believe that the "something" is the code we have built
 
 ---
-
-TODO: expand
-short version:
-
- - insight: we saw a need for a tool
-   - venn diagram: this was something that we could do better than someone else, it was something that solves a clear and persistent problem, and it is something someone is willing to pay for (h/t @ahpook)
-   - we got into the market and had some early success
-   - we built on that success and chased the market up
-   - we ended up being one of those groups of people who were still left standing some time down the road
-
- - prioritization:
-   - we have only limited resources
-   - on the way up we are best spent capturing as much of the market as we can per unit of work
-   - if we spend much time otherwise engaged we die
-   - "technical debt" is like the aggregate affects of lung can_create_repository
-   - gunslingers are way more likely to get shot than they are to live until they develop cancer or emphysema
-
- - At some point the Wild West settles down
-   - the gunslinger has a little ranch, maybe a family
-   - it's probably time to quit smoking
-
- - That was totally a metaphor, y'all
-
----
-
-## How do we get out of here?
-
----
-
-### Let's think about that "rescue" stuff again
-
----
-
- - Something exists that is worth keeping around
-   - (it's probably getting more and more valuable over time)
- - That something is in a far from ideal state
- - It's big enough that starting over isn't really an option
-
----
-
-### While we are often inclined to believe that the "something" is just a bunch of code somewhere, that's a dangerous belief
 
 ---
 
@@ -261,6 +218,41 @@ short version:
 ### Not managing the technical aspects of changing a system will also result in failure.
 
 ---
+
+### To get where we need to be, we need to:
+
+ - Understand what is actually important, right now
+ - Evaluate paths forward to move towards our goals
+ - Change the direction of the people and systems involved
+
+---
+
+## How did we get here?
+
+---
+
+TODO: expand
+short version:
+
+ - insight: we saw a need for a tool
+   - venn diagram: this was something that we could do better than someone else, it was something that solves a clear and persistent problem, and it is something someone is willing to pay for (h/t @ahpook)
+   - we got into the market and had some early success
+   - we built on that success and chased the market up
+   - we ended up being one of those groups of people who were still left standing some time down the road
+
+ - prioritization:
+   - we have only limited resources
+   - on the way up we are best spent capturing as much of the market as we can per unit of work
+   - if we spend much time otherwise engaged we die
+   - "technical debt" is like the aggregate affects of lung can_create_repository
+   - gunslingers are way more likely to get shot than they are to live until they develop cancer or emphysema
+
+ - At some point the Wild West settles down
+   - the gunslinger has a little ranch, maybe a family
+   - it's probably time to quit smoking
+
+ - That was totally a metaphor, y'all
+
 
 ## The technical
 
@@ -1172,6 +1164,7 @@ short version:
 ## Image credits:
 
 https://www.flickr.com/photos/jobless_photoman/7512657396/
+octocats: [the octodex](https://octodex.github.com) and its creators
 
 ---
 
@@ -1197,7 +1190,11 @@ https://www.flickr.com/photos/loshak/4839254506/
 
 <br/>
 
-**Note: dat rooster is origin unknown**
+## Images origin unknown:
+
+ - "What the hell have you built."
+ - the drinking rooster
+ - "What the hell did you build, Luke???"
 
 ---
 = data-x="1000" data-scale-"2" data-rotate-y="45" data-z="10000"
