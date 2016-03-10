@@ -71,6 +71,10 @@
 
 ---
 
+![](images/daftpunktocat-thomas.gif)
+
+---
+
 ### Spent 2 1/2 years at GitHub.
 
 <br/>
@@ -78,6 +82,10 @@
 #### We kind of thought we were going to do "green field" work. _(§)_
 
 #### We ended up mostly doing app and team rescues.
+
+---
+
+![](images/nyantocat.gif)
 
 ---
 
@@ -113,7 +121,17 @@
 
 ---
 
+### Fortunately these days I never find myself asking
+
+---
+<center>
+
+
 ![](images/wthhybl.jpg)
+
+## "OMG, Luke, what did you build?!"
+
+</center>
 
 ---
 
@@ -153,6 +171,20 @@ It's big enough that starting over isn't really an option
 
 ---
 
+### Awwwww. maaaan.
+
+![]()
+
+---
+
+### This is gonna be some tired old shit from Wikipedia isn't it?
+
+---
+
+### Bear with me.
+
+---
+
 > Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.
 
 <div align="right"><em> -- Melvin Conway</em></div>
@@ -161,9 +193,7 @@ It's big enough that starting over isn't really an option
 
 ### Blah blah blah
 
-<br/>
-
-### We've probably all heard this before
+### Yes, that's some tired old shit from Wikipedia.
 
 ---
 
@@ -173,7 +203,7 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### Same thing, but for those people who like to talk about ALGOL
+### More of the same, but for those people who like to talk about ALGOL
 
 ---
 
@@ -183,11 +213,11 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### Now we're getting somewhere
+### Now we're actually getting somewhere
 
 ---
 
-### I would actually go further
+### I would go further
 
 ---
 
@@ -203,11 +233,97 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### The connections and couplings between parts of a system reflect times when people worked together on those systems.
+### The connections and couplings between parts of a system reflect times when people worked simultaneously on those systems.
 
 ---
 
-### A "rescue" is taking a thing which excelled by a set of past values and transforming it to excel by a set of current or future values.
+### Changing a system is almost entirely about working with, working around, and changing the interactions between the people involved with the system.
+
+---
+
+---
+
+## How did we get here?
+
+---
+
+### In the past we saw a need, and an opportunity
+
+---
+
+1. There was a pervasive and persistent problem to be solved.
+2. People were willing to pay for a solution to that problem.
+3. And we were in a position to do it better than others.
+
+
+<div align="right"><small><em>h/t <a href="https://twitter.com/ahpook/">@ahpook</a></em></small></div>
+
+---
+
+<center>
+
+![somesortofsuccessimage]()
+
+### We got into the market and had some early success
+
+</center>
+
+---
+
+### We built on that success and chased the market up
+
+---
+
+<center>
+
+![lastmanstandingimage]()
+
+### We ended up being one of those groups of people who were still left standing some time down the road
+
+</center>
+
+---
+
+### (interlude)
+
+---
+
+<center>
+
+![anicca]()
+
+### Otherwise known as "impermanence"
+
+</center>
+
+---
+
+<center>
+![](lebowski-new-shit)
+
+### New shit has come to light
+</center>
+
+---
+
+### To get where we need to be, we need to do a few things...
+
+---
+
+### Understand what is actually important, right now
+### (be willing to let go of the past)
+
+<br/>
+
+### Evaluate paths that move us towards our goals
+
+<br />
+
+### Change the direction of the people and systems involved
+
+---
+
+### A "rescue" is taking a thing which excelled by a set of past values and transforming it to excel by a set of new values.
 
 ---
 
@@ -219,40 +335,51 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### To get where we need to be, we need to:
-
- - Understand what is actually important, right now
- - Evaluate paths forward to move towards our goals
- - Change the direction of the people and systems involved
+## Prioritization
 
 ---
 
-## How did we get here?
+![](gunslinger/magnificent-7)
+
+### In the (Hollywood) Wild West
 
 ---
 
-TODO: expand
-short version:
+![](gunslingers shooting)
 
- - insight: we saw a need for a tool
-   - venn diagram: this was something that we could do better than someone else, it was something that solves a clear and persistent problem, and it is something someone is willing to pay for (h/t @ahpook)
-   - we got into the market and had some early success
-   - we built on that success and chased the market up
-   - we ended up being one of those groups of people who were still left standing some time down the road
+### Were much more likely to get shot
 
- - prioritization:
-   - we have only limited resources
-   - on the way up we are best spent capturing as much of the market as we can per unit of work
-   - if we spend much time otherwise engaged we die
-   - "technical debt" is like the aggregate affects of lung can_create_repository
-   - gunslingers are way more likely to get shot than they are to live until they develop cancer or emphysema
+---
 
- - At some point the Wild West settles down
-   - the gunslinger has a little ranch, maybe a family
-   - it's probably time to quit smoking
+![](gunslinger smoking)
 
- - That was totally a metaphor, y'all
+### Than to live to die of lung cancer
 
+---
+
+![](civiled-wild-west-town)
+
+### Eventually things settle down
+
+---
+
+![](little ranch)
+
+### And a gunslinger who lived, might even settle down
+
+---
+
+![](quit smoking)
+
+### At which point, lung cancer and emphysema become the real risks
+
+---
+
+## That was totally a metaphor, y'all
+
+---
+
+---
 
 ## The technical
 
