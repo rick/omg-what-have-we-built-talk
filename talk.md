@@ -250,9 +250,15 @@ short version:
 
 ---
 
-### A "rescue" is taking a thing which excelled by a set of past values and transforming it in an attempt to excel by a set of current or future values.
+### A "rescue" is taking a thing which excelled by a set of past values and transforming it to excel by a set of current or future values.
 
 ---
+
+### Treating a "rescue" as a technical problem misses the fundamental reality, and will fail.
+
+---
+
+### Not managing the technical aspects of changing a system will also result in failure.
 
 ---
 
