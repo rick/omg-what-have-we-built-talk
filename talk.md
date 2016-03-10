@@ -306,6 +306,11 @@ It's big enough that starting over isn't really an option
 
 ---
 
+
+### A "rescue" is taking a thing which excelled by a set of past values and transforming it to excel by a set of new values.
+
+---
+
 ### To get where we need to be, we need to do a few things...
 
 ---
@@ -323,15 +328,11 @@ It's big enough that starting over isn't really an option
 
 ---
 
-### A "rescue" is taking a thing which excelled by a set of past values and transforming it to excel by a set of new values.
+### Treating the need to change as a technical problem misses the fundamental reality, and will fail.
 
 ---
 
-### Treating a "rescue" as a technical problem misses the fundamental reality, and will fail.
-
----
-
-### Not managing the technical aspects of changing a system will also result in failure.
+### Not managing the technical aspects of needed change will also result in failure.
 
 ---
 
@@ -347,13 +348,13 @@ It's big enough that starting over isn't really an option
 
 ![](gunslingers shooting)
 
-### Were much more likely to get shot
+### Gunslingers were much more likely to get shot
 
 ---
 
 ![](gunslinger smoking)
 
-### Than to live to die of lung cancer
+### Than to live so long they could die of lung cancer
 
 ---
 
@@ -371,7 +372,7 @@ It's big enough that starting over isn't really an option
 
 ![](quit smoking)
 
-### At which point, lung cancer and emphysema become the real risks
+### At which point, lung cancer and emphysema become actual risks
 
 ---
 
@@ -381,7 +382,197 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## The technical
+### We only have finite time, money, and people
+
+<br/>
+
+### So we must be judicious
+
+---
+
+### Which problems do we solve?
+
+<br/>
+
+### Or, conversely, which risks do we minimize?
+
+---
+
+## Case study: Abilities
+
+---
+
+
+
+![](images/permission-bug-0.png)
+
+**June 2012**
+
+---
+
+![](images/permission-bug-1.png)
+
+**July 2012**
+
+---
+
+![](images/permission-bug-2.png)
+
+**July 2012**
+
+---
+
+![](images/permission-bug-3.png)
+
+**July 2012**
+
+
+---
+
+![](images/permission-bug-4.png)
+
+**July 2012**
+
+---
+
+
+![](images/permission-bug-5.png)
+
+**August 2012**
+
+---
+
+
+![](images/permission-bug-9.png)
+**September 2012**
+
+
+---
+
+![](images/permission-bug-6.png)
+
+**September 2012**
+
+---
+
+### Acknowledging consensus and getting "buy-in"
+
+---
+
+
+![defunkt-consensus](images/permission-bug-7.png)
+
+**September 2012**
+
+---
+
+![](images/permission-bug-8.png)
+
+**September 2012**
+
+---
+
+
+![](images/permission-bug-10.png)
+
+**November 2012**
+
+---
+
+## Incrementality
+
+---
+
+### Building a consensus and prioritizing goal-driven change is critical
+
+---
+
+### Without these people will work at cross purposes and positive change will be hugely difficult
+
+---
+
+### But there is a natural tension between "Second Systems", "Big Projects", "Company-wide Initiatives"
+
+<br/>
+
+### and the incremental, piecewise, exploratory, agile work needed to change a complex system.
+
+---
+
+
+---
+
+### I have spoken elsewhere about the different sizes of intentional change
+
+### See my ["Long Refactorings"](http://rick.github.io/long-refactorings-talk/) talk for details
+
+<br/>
+
+### I will just summarize some techniques here
+
+---
+
+### For the efforts worth doing
+
+<br/>
+
+### &nbsp;
+### &nbsp;
+
+---
+
+### There are enough risks that success is unlikely
+
+<br/>
+
+### &nbsp;
+### &nbsp;
+
+---
+
+### There are enough risks that success is unlikely
+
+<br/>
+
+### Avoid building a Second System™ -- the promised land of endless biscuits and gravy.
+
+
+---
+
+### There are enough risks that success is unlikely
+
+<br/>
+
+### Aim to minimize costs.
+### &nbsp;
+
+---
+
+### There are enough risks that success is unlikely
+
+<br/>
+
+### Be iterative rather than Big
+### &nbsp;
+
+---
+
+### There are enough risks that success is unlikely
+
+<br/>
+
+### Aim to never be a roadblock.
+### &nbsp;
+
+
+---
+
+### There are enough risks that success is unlikely
+
+<br/>
+
+### Integrate constantly.  Long-running branches are kryptonite.
+### &nbsp;
 
 ---
 
@@ -786,76 +977,6 @@ It's big enough that starting over isn't really an option
 
 ---
 
-## There are enough risks that success is unlikely
-
-<br/>
-
-### &nbsp;
-### &nbsp;
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### So, aim to minimize costs.
-### &nbsp;
-
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### Aim to never be a roadblock.
-### &nbsp;
-
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### Avoid building the Second System™ -- the promised land of endless biscuits and gravy.
-
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### Integrate constantly.  Long-running branches are kryptonite.
-### &nbsp;
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### Don't go in for Flag Day.
-### &nbsp;
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### When the project "lands", it's quietly been in use for weeks or months already.
----
-
-## There are enough risks that success is unlikely
-
-<br/>
-
-### Be like water.
-### &nbsp;
-
----
-
-![](images/be-like-water.jpg)
-
----
-
 ![](images/miner.jpg)
 
 <br/>
@@ -1126,11 +1247,6 @@ It's big enough that starting over isn't really an option
 ![](images/nil-can.png)
 
 ### ... which can be put to holy or horrible uses.
----
-
-![](images/horrible-people.png)
-
-### Because, really, we're all such horrible people.
 
 ---
 
@@ -1288,6 +1404,11 @@ It's big enough that starting over isn't really an option
 
 ---
 
+## Questions?
+
+---
+
+
 ## Image credits:
 
 https://www.flickr.com/photos/jobless_photoman/7512657396/
@@ -1326,4 +1447,8 @@ https://www.flickr.com/photos/loshak/4839254506/
 ---
 = data-x="1000" data-scale-"2" data-rotate-y="45" data-z="10000"
 
-![](images/riddlocat.png)
+![](some image)
+
+### (musical interlude)
+
+---
