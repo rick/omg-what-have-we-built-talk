@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link href="css/reset.css" rel="stylesheet" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>    
+
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step' >
+    
+<h1>OMG, what did we build?</h1>
+
+<h2>Recovering from the hangover of application success</h2>
+</div>
+      <div class='step' >
+    
+<p><img src="images/wthhyb.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h1>OMG</h1>
+
+<p><br/>
+<br/></p>
+
+<h2>Rick Bradley</h2>
+
+<h3>Principal Engineer, Puppet Labs</h3>
+
+<h3>github.com/rick</h3>
+</div>
+      <div class='step' >
+    
+<h2>Lives</h2>
+
+<h4>(past and otherwise)</h4>
+</div>
+      <div class='step' >
+    
+<h3>Spent a couple of years trying to rewrite a large clinical system.</h3>
+
+<p><br/></p>
+
+<h4>This looked a lot like &quot;green field&quot; work.</h4>
+
+<h4>It totally wasn&#39;t.</h4>
+
+<p><br/></p>
+
+<h4>&quot;Rewrites&quot; are a messy thing, and quite possibly impossible at any non-trivial scale.</h4>
+</div>
+      <div class='step' >
+    
+<h3>The project was a failure.</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/tire-fire.jpg" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>I mean, I learned a lot.</h3>
+
+<p><br/></p>
+
+<h3>But, just, fire and craters.</h3>
+</div>
+      <div class='step' >
+    
+<h3>Fortunately, business is often like diplomacy:</h3>
+
+<p><br/></p>
+
+<h3>There are no &quot;failures&quot;, just &quot;frank exchanges of views&quot; and &quot;going back to the table&quot;.</h3>
+</div>
+      <div class='step' >
+    
+<h3>Spent 5 years in a 3-person consultancy.</h3>
+
+<p><br/></p>
+
+<h4>We thought we were going to do &quot;green field&quot; work.</h4>
+
+<h4>We ended up mostly doing app and team rescues.</h4>
+</div>
+      <div class='step' >
+    
+<p><img src="images/daftpunktocat-thomas.gif" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>Spent 2 1/2 years at GitHub.</h3>
+
+<p><br/></p>
+
+<h4>We kind of thought we were going to do &quot;green field&quot; work. <a href="https://github.com/rick/roll"><em>(§)</em></a></h4>
+
+<h4>We ended up mostly doing app and team rescues.</h4>
+</div>
+      <div class='step' >
+    
+<p><img src="images/nyantocat.gif" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>That&#39;s a pretty consistent streak of cleaning up after people.</h3>
+</div>
+      <div class='step' >
+    
+<h3>I found myself asking &quot;what is the common factor here?&quot;</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/rick.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>Obviously, it&#39;s working on &quot;apps&quot;.</h3>
+</div>
+      <div class='step' >
+    
+<h3>I&#39;ve been at Puppet Labs for just over a year.</h3>
+
+<p><br/></p>
+
+<h4>Had no illusions that I would be doing &quot;green field&quot; work.</h4>
+
+<h4>I am not working on &quot;apps&quot; now.</h4>
+
+<h4>Currently revamping our processes and streamlining testing, delivery, etc.</h4>
+</div>
+      <div class='step' >
+    
+<h3>i.e., &quot;(<em>something something</em>) and team rescues&quot;...</h3>
+</div>
+      <div class='step' >
+    
+<h3>Fortunately these days I never find myself asking</h3>
+</div>
+      <div class='step' >
+    
+<p><center></p>
+
+<p><img src="images/wthhybl.jpg" alt=""></p>
+
+<h2>&quot;OMG, Luke, what did you build?!&quot;</h2>
+
+<p></center></p>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h2>&quot;Rescues&quot;</h2>
+</div>
+      <div class='step' >
+    
+<h3>What does that even mean?</h3>
+</div>
+      <div class='step' >
+    
+<p>Something exists that is worth keeping around</p>
+</div>
+      <div class='step' >
+    
+<p>(it&#39;s probably getting more and more valuable over time)</p>
+</div>
+      <div class='step' >
+    
+<p>That something is in a far from ideal state</p>
+</div>
+      <div class='step' >
+    
+<p>It&#39;s big enough that starting over isn&#39;t really an option</p>
+</div>
+      <div class='step' >
+    
+<h3>We are often inclined to believe that the &quot;something&quot; is the code we have built</h3>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h2>Conway&#39;s Law</h2>
+</div>
+      <div class='step' >
+    
+<p><img src="images/no-ice-cream-left.jpg" alt=""></p>
+
+<h3>Awwwww. maaaan.</h3>
+</div>
+      <div class='step' >
+    
+<h3>This is gonna be some tired old shit from Wikipedia isn&#39;t it?</h3>
+</div>
+      <div class='step' >
+    
+<h3>Bear with me.</h3>
+</div>
+      <div class='step' >
+    
+<blockquote>
+<p>Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.</p>
+</blockquote>
+
+<div align="right"><em> -- Melvin Conway</em></div>
+</div>
+      <div class='step' >
+    
+<h3>Blah blah blah</h3>
+
+<h3>Yes, that&#39;s some tired old shit from Wikipedia.</h3>
+</div>
+      <div class='step' >
+    
+<blockquote>
+<p>If you have four groups working on a compiler, you&#39;ll get a 4-pass compiler.</p>
+</blockquote>
+
+<div align="right"><em> -- ESR</em></div>
+</div>
+      <div class='step' >
+    
+<h3>More of the same, but for those people who like to talk about ALGOL</h3>
+</div>
+      <div class='step' >
+    
+<blockquote>
+<p>The structure of a problem reflects the structure of the organization that created it.</p>
+</blockquote>
+
+<div align="right"><em> -- Bill Corcoran</em></div>
+</div>
+      <div class='step' >
+    
+<h3>Now we&#39;re actually getting somewhere</h3>
+</div>
+      <div class='step' >
+    
+<h3>Bringing it back to systems, I understand another variant</h3>
+</div>
+      <div class='step' >
+    
+<blockquote>
+<p>Every aspect of a system is a direct result of the interactions of the personalities who built that system.</p>
+</blockquote>
+</div>
+      <div class='step' >
+    
+<h3>The features of a system derive from the personalities who built it, acting during a time when those features made some sort of sense.</h3>
+</div>
+      <div class='step' >
+    
+<h3>The haphazard construction of parts of a system result from a time where the people involved could do nothing but make those parts haphazard.</h3>
+</div>
+      <div class='step' >
+    
+<h3>The connections and couplings between parts of a system reflect times when people worked simultaneously on those systems.</h3>
+</div>
+      <div class='step' >
+    
+<h3>Changing a system is almost entirely about working with, working around, and changing the interactions between the people involved with the system.</h3>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h2>How did we get here?</h2>
+</div>
+      <div class='step' >
+    
+<h3>In the past we saw a need, and an opportunity</h3>
+</div>
+      <div class='step' >
+    
+<ol>
+<li>There was a pervasive and persistent problem to be solved.</li>
+<li>People were willing to pay for a solution to that problem.</li>
+<li>And we were in a position to do it better than others.</li>
+</ol>
+
+<div align="right"><small><em>h/t <a href="https://twitter.com/ahpook/">@ahpook</a></em></small></div>
+</div>
+      <div class='step' >
+    
+<p><center></p>
+
+<p><img src="images/lol-success.jpg" alt="lolsuccess"></p>
+
+<h3>We got into the market and had some early success</h3>
+
+<p></center></p>
+</div>
+      <div class='step' >
+    
+<h3>We built on that success and chased the market up</h3>
+</div>
+      <div class='step' >
+    
+<p><center></p>
+
+<p><img src="images/mad-max.jpg" alt=""></p>
+
+<h3>We ended up being one of those groups of people who were still left standing some time down the road</h3>
+
+<p></center></p>
+</div>
+      <div class='step' >
+    
+<h3><a href="https://www.youtube.com/watch?v=4nsKDJlpUbA">(interlude)</a></h3>
+</div>
+      <div class='step' >
+    
+<p><center></p>
+
+<h3>Impermanence</h3>
+
+<p></center></p>
+</div>
+      <div class='step' >
+    
+<p><center>
+<img src="images/new-shit.jpg" alt=""></p>
+
+<h3>New shit has come to light</h3>
+
+<p></center></p>
+</div>
+      <div class='step' >
+    
+<h3>A &quot;rescue&quot; is taking a thing which excelled by a set of past values and transforming it to excel by a set of new values.</h3>
+</div>
+      <div class='step' >
+    
+<h3>To get where we need to be, we need to do a few things...</h3>
+</div>
+      <div class='step' >
+    
+<h3>Understand what is actually important, right now</h3>
+
+<h3>(be willing to let go of the past)</h3>
+
+<p><br/></p>
+
+<h3>Evaluate paths that move us towards our goals</h3>
+
+<p><br /></p>
+
+<h3>Change the direction of the people and systems involved</h3>
+</div>
+      <div class='step' >
+    
+<h3>Treating the need to change as a technical problem misses the fundamental reality, and will fail.</h3>
+</div>
+      <div class='step' >
+    
+<h3>Not managing the technical aspects of needed change will also result in failure.</h3>
+</div>
+      <div class='step' >
+    
+<h2>Prioritization</h2>
+</div>
+      <div class='step' >
+    
+<p><img src="images/wild-west.jpg" alt=""></p>
+
+<h3>In the (Hollywood) Wild West</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/gunfight.gif" alt=""></p>
+
+<h3>Gunslingers were much more likely to get shot</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/smoking.gif" alt=""></p>
+
+<h3>Than to live so long they could die of lung cancer</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/eastwood-doctor.jpg" alt=""></p>
+
+<h3>Eventually things get calmer</h3>
+
+<h3>And a gunslinger who lived, might even settle down</h3>
+
+<h3>At which point, lung cancer and emphysema become actual risks</h3>
+</div>
+      <div class='step' >
+    
+<h2>That was totally a metaphor, y&#39;all</h2>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h3>We only have finite time, money, and people</h3>
+
+<p><br/></p>
+
+<h3>So we must be judicious</h3>
+</div>
+      <div class='step' >
+    
+<h3>Which problems do we solve?</h3>
+
+<p><br/></p>
+
+<h3>Or, conversely, which risks do we minimize?</h3>
+</div>
+      <div class='step' >
+    
+<h2>Case study: Abilities</h2>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-0.png" alt=""></p>
+
+<p><strong>June 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-1.png" alt=""></p>
+
+<p><strong>July 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-2.png" alt=""></p>
+
+<p><strong>July 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-3.png" alt=""></p>
+
+<p><strong>July 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-4.png" alt=""></p>
+
+<p><strong>July 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-5.png" alt=""></p>
+
+<p><strong>August 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-9.png" alt="">
+<strong>September 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-6.png" alt=""></p>
+
+<p><strong>September 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<h3>Acknowledging consensus and getting &quot;buy-in&quot;</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-7.png" alt="defunkt-consensus"></p>
+
+<p><strong>September 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-8.png" alt=""></p>
+
+<p><strong>September 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/permission-bug-10.png" alt=""></p>
+
+<p><strong>November 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<h2>Incrementality</h2>
+</div>
+      <div class='step' >
+    
+<h3>Building a consensus and prioritizing goal-driven change is critical</h3>
+</div>
+      <div class='step' >
+    
+<h3>Without these, people will work at cross purposes and positive change will be hugely difficult</h3>
+</div>
+      <div class='step' >
+    
+<h3>But there is a natural tension between &quot;Second Systems&quot;, &quot;Big Projects&quot;, &quot;Company-wide Initiatives&quot;</h3>
+
+<p><br/></p>
+
+<h3>and the incremental, piecewise, exploratory, agile work needed to change a complex system.</h3>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h3>I have spoken elsewhere about the different sizes of intentional change (see my <a href="http://rick.github.io/long-refactorings-talk/">&quot;Long Refactorings&quot;</a> talk for details)</h3>
+
+<p><br/></p>
+
+<h3>I will just summarize some techniques here</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>For the efforts worth doing</strong></h3>
+
+<p><br/></p>
+
+<h3>&nbsp;</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>There are enough risks that success is unlikely</strong></h3>
+
+<p><br/></p>
+
+<h3>&nbsp;</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>There are enough risks that success is unlikely</strong></h3>
+
+<p><br/></p>
+
+<h3>Avoid building a Second System™ -- the promised land of endless biscuits and gravy.</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>There are enough risks that success is unlikely</strong></h3>
+
+<p><br/></p>
+
+<h3>Aim to minimize costs.</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>There are enough risks that success is unlikely</strong></h3>
+
+<p><br/></p>
+
+<h3>Be iterative rather than Big</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>There are enough risks that success is unlikely</strong></h3>
+
+<p><br/></p>
+
+<h3>Aim to never be a roadblock.</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>There are enough risks that success is unlikely</strong></h3>
+
+<p><br/></p>
+
+<h3>Integrate constantly.  Long-running branches are kryptonite.</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h2>Technical, um, techniques</h2>
+</div>
+      <div class='step' >
+    
+<h3>Do small refactorings when changing a system</h3>
+
+<h3>Be knowledgeable of the techniques in Martin Fowler&#39;s <em>Refactoring</em> book.</h3>
+
+<p><br/></p>
+
+<h3>Refactorings at this scale are a commit or few,</h3>
+
+<h3>inside the boundary of a larger pull request,</h3>
+
+<h3>dedicated to a feature or a bugfix.</h3>
+</div>
+      <div class='step' >
+    
+<h3>Your test suite is almost certainly insufficient to support large changes</h3>
+</div>
+      <div class='step' >
+    
+<h3>If your test suite <em>is</em> sufficient to support large changes</h3>
+
+<p><br/></p>
+
+<h3>You squandered resources at some point</h3>
+</div>
+      <div class='step' >
+    
+<h3>Drive change via tests</h3>
+
+<p><br/></p>
+
+<h3>Increase test coverage as you make changes</h3>
+
+<p><br/></p>
+
+<h3>&quot;Characterize&quot; behaviors before changing them</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/working-effectively.jpg" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>Work to be expert in the techniques Michael Feathers outlines:</h3>
+
+<p><br/></p>
+
+<h3>characterization testing, refactoring to tests, sensing variables, etc.</h3>
+</div>
+      <div class='step' >
+    
+<h3>There are different understandings of your world throughout your organization</h3>
+</div>
+      <div class='step' >
+    
+<h3>Changing the system requires joint understanding</h3>
+
+<p><br/></p>
+
+<h3>Develop and write down a shared language</h3>
+
+<h3>Understand the boundaries between parts of the system</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/ddd.jpg" alt=""></p>
+
+<h3>i.e., use Domain-Driven Design</h3>
+</div>
+      <div class='step' >
+    
+<h3>The &quot;Big Ball of Mud&quot; architecture is fine</h3>
+
+<p><br/></p>
+
+<h3>Any given initiative should focus on one thing</h3>
+
+<h3>Don&#39;t be distracted by wide-ranging cleanup efforts</h3>
+</div>
+      <div class='step' >
+    
+<h3>Don&#39;t be distracted by Cool™ New® Technologies¥</h3>
+
+<h3>Always use off-the-shelf until you&#39;re backed into a corner</h3>
+</div>
+      <div class='step' >
+    
+<h3>You&#39;re probably not backed into a corner. Stop it.</h3>
+</div>
+      <div class='step' >
+    
+<h2>Larger efforts</h2>
+</div>
+      <div class='step' >
+    
+<h3>Understand the goal</h3>
+
+<h3>Introduce metrics as safeguards</h3>
+
+<h3>Introduce metrics as approximations of the goal</h3>
+
+<h3>Incrementally and iteratively refine the system towards optimizing those metrics</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/mikado.jpg" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>Use techniques like those from <em>The Mikado Method</em> to explore the feasibility of a significant system change</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/mikado-graph.png" alt=""></p>
+
+<ol>
+<li>Start with a goal</li>
+<li>Do the first small refactoring along the way</li>
+<li>See what breaks -- write down a graph node</li>
+<li>Repeat until no more dependencies</li>
+</ol>
+</div>
+      <div class='step' >
+    </div>
+      <div class='step' >
+    
+<h2>Oh, right.  &quot;abilities&quot;</h2>
+</div>
+      <div class='step' >
+    
+<h3>We had ongoing quality problems in an important part of the system</h3>
+
+<h3>Repeated bugfixing did not improve quality significantly</h3>
+
+<h3>High level feature changes roadblocked by this core subsystem</h3>
+
+<h3>We had built enough consensus, tied to large initiatives, to move this forward</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/abilities-team.png" alt=""></p>
+
+<p><img src="images/orgs-team.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h2>The Abilities project:</h2>
+
+<p><br/></p>
+
+<h3>4 primary developers</h3>
+
+<h3>795 Pull Requests and Issues from November 2012 until August 2014</h3>
+
+<p><br/></p>
+
+<h3>Multiple iterations of complete new permissioning systems</h3>
+
+<h3>Tight collaboration with ongoing Organization improvements</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>From a DDD perspective</strong></h3>
+
+<p><br/></p>
+
+<h3>The User / Organization / Team domains had never been properly understood, and were confusingly implemented</h3>
+
+<p><br/></p>
+
+<h3>We were able to refine these concepts enough to move forward, and refined our shared understanding as necessary</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>From a DDD perspective</strong></h3>
+
+<p><br/></p>
+
+<h3>The domain concept of a Permission was also weakly understood, and its relationships to Repositories were often implicit</h3>
+
+<p><br/></p>
+
+<h3>We brought forward the concept of a Capability as a first-class domain concept</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/capabilities.png" alt=""></p>
+
+<p><strong>November 2012</strong></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/capabilities-1.png" alt=""></p>
+
+<h3>Capabilities lived as a new permissions system, side-by-side with existing permissions until August, 2013</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/recaps.png" alt=""></p>
+
+<h3>Until Abilities came onto the scene.</h3>
+
+<h3>Extensive performance testing led us to remodel capabilities so that granting operations were more performant</h3>
+</div>
+      <div class='step' >
+    
+<h2>How did we know?</h2>
+</div>
+      <div class='step' >
+    
+<p><img src="images/scientist.jpg" alt=""></p>
+
+<h3>Wired: &quot;<a href="http://www.wired.com/2016/02/rebuilding-modern-software-is-like-rebuilding-the-bay-bridge/">Clever New GitHub Tool Lets Coders Build Software Like Bridges</a>&quot;</h3>
+</div>
+      <div class='step' >
+    
+<h3>LOL</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/dat-science.png" alt=""></p>
+
+<h3>Aka <a href="https://github.com/github/scientist">https://github.com/github/scientist</a></h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/dat-science-perf.png" alt=""></p>
+
+<h3>We built tools to let us (and anyone) run two code paths side-by-side.</h3>
+
+<h3>Then performance data was published by instrumentation into our graphite cluster.</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/adminable-by-science.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h2>Don&#39;t Roadblock</h2>
+
+<p><br/></p>
+
+<h3>Long-running branches are kryptonite.</h3>
+
+<h3>We could land short-lived branches to &quot;dark ship&quot; new code.</h3>
+
+<h3>With science and instrumentation tools we could gather real production measurements in a controlled fashion.</h3>
+</div>
+      <div class='step' >
+    
+<h2>How to run two permission systems at the same time</h2>
+
+<h3>One system is the source of all truth.</h3>
+
+<h3>Have a migrator that creates the second system&#39;s data from the first.</h3>
+
+<h3>The data for the second system is updated by actions on the first system.</h3>
+
+<h3>Start with just a subset of users.</h3>
+
+<h3>Trash the data and re-run the migrator.</h3>
+
+<h3>Eventually never re-run the migrator.</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/caps-transitions.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/backscatter.png" alt=""></p>
+
+<h3>Sometimes it&#39;s just hard to figure out if the code you are changing is even being used. Try to be 100% safe.</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/backscatter-1.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/backscatter-2.png" alt=""></p>
+
+<h3>Just a glorified wrapper around ruby&#39;s <code class='inline prettyprint'>caller</code> method</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/nil-can.png" alt=""></p>
+
+<h3>... which can be put to holy or horrible uses</h3>
+</div>
+      <div class='step' >
+    
+<h2>The project will ebb and flow</h2>
+
+<p><br/></p>
+
+<h3>Always have enough side project work available that you can stay fresh and not get bogged down.</h3>
+
+<h3>People will come and go (and often return) on a long project.</h3>
+
+<h3>You will be at an impasse many times.</h3>
+
+<h3>Rely on your team, and allow yourself to experiment with crazy things.</h3>
+
+<h3>Your creativity is an asset.</h3>
+</div>
+      <div class='step' >
+    
+<h2>Keeping a long project running</h2>
+
+<p><br/></p>
+
+<h3>Keep your sense of humor.</h3>
+
+<h3>Rely on your peoples.</h3>
+
+<h3>Keep close.</h3>
+
+<h3>Work-life balance is important.</h3>
+
+<h3>Treat it as a marathon.</h3>
+
+<h3>Take a vacation.</h3>
+
+<h3>You actually can leave and go or do something else.</h3>
+
+<h3>It&#39;s fine.</h3>
+</div>
+      <div class='step' >
+    
+<h2>Setbacks</h2>
+
+<p><br/></p>
+
+<h3>&quot;Repository Networks&quot; were all jacked up at the model level</h3>
+
+<h3>&nbsp;</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h2>Setbacks</h2>
+
+<p><br/></p>
+
+<h3>&quot;Repository Networks&quot; were all jacked up at the model level</h3>
+
+<h3>&quot;plan owner&quot; data was all shitty due to old bad job processes</h3>
+
+<h3>&nbsp;</h3>
+</div>
+      <div class='step' >
+    
+<h2>Setbacks</h2>
+
+<p><br/></p>
+
+<h3>&quot;Repository Networks&quot; were all jacked up at the model level</h3>
+
+<h3>&quot;plan owner&quot; data was all shitty due to old bad job processes</h3>
+
+<h3>Forking and collaborators were all sorts of stupid</h3>
+</div>
+      <div class='step' >
+    
+<h2>Setbacks</h2>
+
+<p><br /></p>
+
+<h3>You re-learn that you everything is connected</h3>
+
+<h3>You end up having to fix way more things than you hoped</h3>
+
+<h3>And you make some trade-offs and draw boundaries</h3>
+</div>
+      <div class='step' >
+    
+<h3>Those of you familiar with DDD should be hearing bells ringing right now:</h3>
+
+<h2>Bounded contexts!!!</h2>
+</div>
+      <div class='step' >
+    
+<h3>Also, to reiterate an earlier point:</h3>
+
+<p><br/></p>
+
+<h3>Your test suite is insufficient, even at 100% coverage</h3>
+
+<h3>because your test suite can&#39;t account for your production data</h3>
+
+<h3>and your whole history of bugs and bugfixes</h3>
+</div>
+      <div class='step' >
+    
+<h2>Setbacks</h2>
+
+<p><br /></p>
+
+<h3>So we wrote data quality scripts to find problems</h3>
+
+<h3>We wrote transition scripts to clean up problems</h3>
+
+<h3>We wrote throttling tools to make massive transitions never hurt production</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/replication-lag-throttler.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h3>It can be difficult or impossible to estimate significant changes to an ongoing system</h3>
+
+<p><br/></p>
+
+<h3>Keep iterating</h3>
+
+<h3>Continually communicate and re-negotiate next steps</h3>
+
+<h3>Work on the most important blocker Right Now</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/enterprise.jpg" alt=""></p>
+
+<h2>Enterprise</h2>
+</div>
+      <div class='step' >
+    
+<h2>Enterprise</h2>
+
+<h3>Installed GitHub instances behind company firewalls</h3>
+
+<h3>Back then were often 6 months behind github.com code base</h3>
+
+<h3>Customers could be 300+ days behind last Enterprise release</h3>
+
+<h3>We had almost zero visibility into installed versions and data quality at a customer&#39;s site</h3>
+
+<h3>There were disabled and enabled github.com features on Enterprise</h3>
+</div>
+      <div class='step' >
+    
+<h2>Enterprise</h2>
+
+<h3>Data transitions for github.com were bundled with migrations for Enterprise upgrades</h3>
+
+<h3>Database tables and ActiveRecord models persisted in github.com code until Enterprise was fully upgraded</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/big-ship.jpg" alt=""></p>
+
+<h2>Shipping</h2>
+</div>
+      <div class='step' >
+    
+<h2>Shipping</h2>
+
+<h3>Made abilities be the &quot;source of truth&quot; for read queries on teams, and orgs</h3>
+
+<h3>Made abilities be the &quot;source of truth&quot; for repository read queries</h3>
+
+<h3>Continue writing data to <em>both</em> permissions systems</h3>
+
+<h3>Gradual removal of science experiment code</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/last-science.jpg" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/last-ship.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/last-ship-2.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/deploy-lol.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/raptor.gif" alt=""></p>
+</div>
+      <div class='step' >
+    
+<h2>Other GitHub &quot;scientist&quot; ships</h2>
+</div>
+      <div class='step' >
+    
+<p><img src="images/rails3.png" alt=""></p>
+
+<h3>Rails 3</h3>
+
+<p><br/></p>
+
+<h3>Yup.  LOL.</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/gitrpc.gif" alt=""></p>
+
+<h3>GitRPC</h3>
+</div>
+      <div class='step' >
+    
+<h2>Puppet Labs</h2>
+</div>
+      <div class='step' >
+    
+<h3>Landed into Engineering as a &quot;Principal Engineer&quot;</h3>
+
+<p><br/></p>
+
+<h3>Since all the engineering leads were already, well, leading, I got the opportunity to just roam around for a bit looking at how things work.</h3>
+
+<p><br/></p>
+
+<h3>(Also, given that I had a history of being a &quot;rescuer&quot;, pretty sure no one really wanted me on their team, hahaha)</h3>
+</div>
+      <div class='step' >
+    
+<h3>So I hung out with the &quot;Integration&quot; team</h3>
+
+<p><br/></p>
+
+<h3>Which is a team of heavy hitters charged with cleaning up whatever comes downstream from the rest of engineering and needs to work well in the released product.</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/bottlenecks.png" alt=""></p>
+
+<h3>Lots of bottlenecks and process failures</h3>
+</div>
+      <div class='step' >
+    
+<h3>A more classic cousin of Conway&#39;s Law...</h3>
+</div>
+      <div class='step' >
+    
+<h3>At some point QA, release engineering, and test automation were moved out into a separate division of Engineering</h3>
+
+<p><br/></p>
+
+<h3>As a result, eventually developers did not own how their software was tested, how it was built, how it came together for release</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>Lots of things went &quot;over the wall&quot;</strong></h3>
+
+<p><br/></p>
+
+<h3>Feedback loops got long, developers were unempowered, product releases slowed down, frustration and finger-pointing escalated</h3>
+
+<p><br/></p>
+
+<h3>My hazy understanding: Release engineering eventually got sick of fixing software thrown over the wall, and so the Integration team was born (closer to home, but still &quot;over the fence&quot;)</h3>
+</div>
+      <div class='step' >
+    
+<h3>In early 2014 there were technical attempts to fix problems, starting with the CI (test) system, but the efforts petered out with no significant change</h3>
+
+<p><br/></p>
+
+<h3>In early 2015 there were &quot;proof of concept&quot; experiments (like we&#39;d done at GitHub with permissioning systems), but they never moved forward</h3>
+</div>
+      <div class='step' >
+    
+<h3><strong>The fundamental problems were organizational</strong></h3>
+
+<p><br/></p>
+
+<h3>Interpersonal and team dynamics that persist over years</h3>
+
+<h3>Self-reinforcing patterns of behavior that prevent real change from happening</h3>
+
+<h3>Siloing of teams with thick walls preventing cross-cutting change</h3>
+</div>
+      <div class='step' >
+    
+<h2>What now?</h2>
+</div>
+      <div class='step' >
+    
+<h3>We moved testing pipeline definition into version control and made it more self-service</h3>
+
+<p><br/></p>
+
+<h3>This only took a little concensus building, and the stability benefits were obvious</h3>
+
+<p><br/></p>
+
+<h3>The side effect is that it makes developers more involved in the testing cycle (it&#39;s less over-the-wall)</h3>
+</div>
+      <div class='step' >
+    
+<h3>We started a cross-functional group called The Pit Crew which brings in high-level engineers and test/release folks</h3>
+
+<p><br/></p>
+
+<h3>It is HIGHLY transparent (more so than any other high-level group in the company)</h3>
+
+<p><br/></p>
+
+<h3>Its mandate is to find the biggest bottlenecks in the development-to-release cycle and have actual teams prioritize those fixes</h3>
+</div>
+      <div class='step' >
+    
+<h3>For this we had to build high-level consensus that these fixes were necessary to deliver product in the future (because this effort pushes back on product feature work!)</h3>
+
+<p><br/></p>
+
+<h3>The proof of the commitment is that we already have big bottlenecks being tackled by real people</h3>
+</div>
+      <div class='step' >
+    
+<h3>We are rolling out a long-term (1 year+) revamp of our CI/build/release infrastructure</h3>
+
+<p><br/></p>
+
+<h3>We need to alleviate fundamental performance and capacity problems</h3>
+
+<h3>We need to address deep UX problems, and to make it even more self-service</h3>
+</div>
+      <div class='step' >
+    
+<h2>Building consensus</h2>
+</div>
+      <div class='step' >
+    
+<h3>Working 100% in the open</h3>
+
+<h3>Gathering feedback, and conducting group therapy</h3>
+
+<h3>Naming the problems to be solved, and the techniques used to solve them</h3>
+
+<h3>Avoiding the pitfalls of previous attempts</h3>
+
+<h3>Building a roadmap, but keeping downstream intentionally un-detailed</h3>
+
+<h3>Fighting Second System Syndrome™</h3>
+
+<h3>Cutting through silos</h3>
+</div>
+      <div class='step' >
+    
+<p><img src="images/roadmap.png" alt=""></p>
+</div>
+      <div class='step' >
+    
+<p><img src="images/show-me-what-you-got.jpg" alt=""></p>
+
+<h2>Questions?</h2>
+</div>
+      <div class='step' >
+    
+<h2>Image credits:</h2>
+
+<p><a href="https://www.flickr.com/photos/jobless_photoman/7512657396/">https://www.flickr.com/photos/jobless_photoman/7512657396/</a>
+octocats: <a href="https://octodex.github.com">the octodex</a> and its creators
+<a href="https://www.flickr.com/photos/alastair-dunning/5250713135/">https://www.flickr.com/photos/alastair-dunning/5250713135/</a>
+<a href="https://www.flickr.com/photos/37676753@N08/5117011208/">https://www.flickr.com/photos/37676753@N08/5117011208/</a>
+<a href="https://www.flickr.com/photos/affers/10562940573/">https://www.flickr.com/photos/affers/10562940573/</a>
+<a href="http://i.imgur.com/M7scT7C.jpg">http://i.imgur.com/M7scT7C.jpg</a>
+<a href="https://en.wikipedia.org/wiki/List_of_Old_West_gunfighters">https://en.wikipedia.org/wiki/List_of_Old_West_gunfighters</a>
+<a href="https://www.flickr.com/photos/steveallen/3324325493/">https://www.flickr.com/photos/steveallen/3324325493/</a>
+<a href="https://www.flickr.com/photos/pixbymaia/9662665997/">https://www.flickr.com/photos/pixbymaia/9662665997/</a>
+<a href="https://www.flickr.com/photos/usnavy/7070501561/">https://www.flickr.com/photos/usnavy/7070501561/</a></p>
+</div>
+      <div class='step' >
+    
+<h2>Images origin unknown:</h2>
+
+<ul>
+<li>&quot;What the hell have you built.&quot;</li>
+<li>&quot;What the hell did you build, Luke???&quot;</li>
+<li>the drinking rooster</li>
+<li>everything else: The Internets</li>
+</ul>
+</div>
+      <div class='step'  data-x="1000" data-scale-"2" data-rotate-y="45" data-z="10000">
+    
+<p><img src="images/dat-rooster.jpg" alt=""></p>
+
+<h3>(musical interlude)</h3>
+</div>
+      <div class='step' >
+    
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
