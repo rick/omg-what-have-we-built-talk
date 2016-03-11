@@ -1,5 +1,7 @@
 ## A talk: "OMG, what did we build? Recovering from the hangover of application success"
 
+View this talk online at [http://rick.github.io/omg-what-have-we-built-talk/](http://rick.github.io/omg-what-have-we-built-talk/).
+
 
 This is an [mdpress](https://github.com/egonSchiele/mdpress) talk.  To view it locally:
 
