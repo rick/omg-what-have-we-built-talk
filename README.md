@@ -1,3 +1,6 @@
+https://npmjs.com/package/@krab/krab
+
+
 ## A talk: "OMG, what did we build? Recovering from the hangover of application success"
 
 View this talk online at [http://rick.github.io/omg-what-have-we-built-talk/](http://rick.github.io/omg-what-have-we-built-talk/).
